@@ -9,3 +9,147 @@ body {
     margin: 30px 50px;
     line-height: 1.4;
 }
+
+.btn {
+    background: #3C4A3E;
+    color: #fafafa;
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+}
+
+/*
+img {
+    max-width: 100%;
+*/
+
+.frame {
+    display: grid;
+    grid-gap: 20px;
+}
+
+/* Navigation */
+
+.main-nav ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main-nav a {
+    background: #ddd;
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: #3C4A3E;
+    text-transform: uppercase;
+    font-size: 19px;
+    box-shadow: 0 1px 5x rgba(104, 104, 104, 0.8);
+}
+
+.main-nav a:hover {
+    background: #3C4A3E;
+    color: #ddd;
+}
+
+/* Top Container */
+.top-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        'showbox showbox box-up'
+        'showbox showbox box-down';
+}
+
+/* Showbox */
+.showbox {
+    grid-area: showbox;
+    min-height: 200px;
+    background: url(../images/man_aed.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8) ;
+}
+
+.showbox h1 {
+    font-size: 5.5rem;
+    margin-bottom: 20px;
+    color: #fafafa;
+    text-shadow: 4px 4px #e12e1e;
+}
+
+.showbox i {
+    color: #e12e1e;
+}
+
+/* Top Box */
+.top-box {
+    background: #ddd;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    padding: 1.5rem;
+}
+.box-up {
+    grid-area: box-up;
+}
+
+.box-down {
+    grid-area: box-down;
+}
+
+/* Search Section */
+
+.search {
+    background: #ddd;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+}
+
+/* Footer */
+footer {
+    margin-top: 2rem;
+    background: #3C4A3E;
+    color: #ddd;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+    .top-container {
+        grid-template-areas: 
+            'showbox showbox'
+            'box-up box-down';
+    }
+
+    .showbox h1 {
+        font-size: 2.5rem;
+    }
+
+    .main-nav ul {
+        grid-template-columns: 1fr;
+    }
+
+    .search {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .top-container {
+        grid-template-areas: 
+        'showbox'
+        'box-up'
+        'box-down';
+    }
+}

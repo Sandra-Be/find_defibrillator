@@ -115,6 +115,22 @@ img {
     padding: 3rem;
 }
 
+/* Map */
+
+div#map {
+    min-height: 360px;
+}
+
+/* Form */
+
+.contact-form {
+    background: #ddd;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    padding: 3rem;
+    align-items: center;
+    justify-items: center;
+}
+
 /* Footer */
 footer {
     margin-top: 2rem;

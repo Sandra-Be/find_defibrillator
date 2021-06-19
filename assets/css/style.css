@@ -127,8 +127,18 @@ div#map {
     background: #ddd;
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
     padding: 3rem;
+/*
     align-items: center;
     justify-items: center;
+*/
+}
+
+.form-box {
+    width: 320px;
+    background: #3C4A3E;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    
 }
 
 /* Footer */

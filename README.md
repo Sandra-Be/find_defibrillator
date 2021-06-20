@@ -155,7 +155,11 @@ This website addresses the needs of people to find all the information that they
 ## Design
 ### Colour scheme
 
- 
+For websites background is used gradient colour palette from www.mycolor.space
+![Gradient colour](assets/project_files/website/gradient.jpg "Gradient colour")
+
+Throughout website is used three colours of dark grey, light grey and green palette.
+![Colour palette](assets/project_files/website/d_color_palette.jpg "Colour palette")
 
 ### Fonts
 

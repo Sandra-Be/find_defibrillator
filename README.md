@@ -146,11 +146,11 @@ This website addresses the needs of people to find all the information that they
 ## Skeleton
 ### Quick sketch
 
-![Quick sketch](assets/project_files/website/ "Quick sketch")
+![Quick sketch](assets/project_files/website/d_sketch.jpg "Quick sketch")
 
 ### Wireframes
 
- 
+![Wireframes](assets/project_files/wireframes/d_wireframe.png "Wireframes") 
 
 ## Design
 ### Colour scheme

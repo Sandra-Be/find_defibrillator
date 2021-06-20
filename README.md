@@ -155,10 +155,10 @@ This website addresses the needs of people to find all the information that they
 ## Design
 ### Colour scheme
 
-For websites background is used gradient colour palette from www.mycolor.space
+For websites background is used gradient colour palette from [mycolor.space](http://mycolor.space).
 ![Gradient colour](assets/project_files/website/gradient.jpg "Gradient colour")
 
-Throughout website is used three colours of dark grey, light grey and green palette.
+Throughout website is used three colours of dark grey, light grey and green palette [mycolor.space](http://mycolor.space).
 ![Colour palette](assets/project_files/website/d_color_palette.jpg "Colour palette")
 
 ### Fonts
@@ -175,6 +175,7 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 
 ### Technologies Used
 
+* [mycolor.space](http://mycolor.space) - used for colour palette throughout the site.
 * [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - to simplify the structure of the website and make the website responsive easily.
 * [Google Fonts](https://fonts.google.com/) - were used throughout the site.
 * Icons on website were added with [Font Awesome](https://fontawesome.com/).

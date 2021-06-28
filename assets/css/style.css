@@ -18,10 +18,10 @@ body {
     border: 0;
 }
 
-/*
+
 img {
     max-width: 100%;
-*/
+}
 
 .frame {
     display: grid;
@@ -56,38 +56,42 @@ img {
 }
 
 /* Top Container */
+
+
 .top-container {
     display: grid;
     grid-gap: 20px;
     grid-template-areas:
-        'showbox showbox box-up'
-        'showbox showbox box-down';
+        'carousel-wrapper carousel-wrapper box-up'
+        'carousel-wrapper carousel-wrapper box-down';
 }
 
-/* Showbox */
-.showbox {
-    grid-area: showbox;
-    min-height: 200px;
-    background: url(../images/man_aed.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 3rem;
-    text-align: center;
-    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8) ;
+/* Carousel-wrapper */
+
+.carousel-wrapper {
+    grid-area: carousel-wrapper;
+    box-shadow: 0 1px 5x rgba(104, 104, 104, 0.8);
 }
 
-.showbox h1 {
-    font-size: 5.5rem;
-    margin-bottom: 20px;
-    color: #fafafa;
-    text-shadow: 2px 2px #e12e1e;
+.carousel-caption {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    top: 2%;
+    margin-left: 15%;
+    text-align: left;
 }
 
-.showbox i {
-    color: #e12e1e;
+.carousel-caption h5 {
+    font-weight: bold;
+    color: rgb(249, 253, 16);
+	font-size: 75px;
+	-webkit-text-stroke: 1px #e12e1e;
+	text-shadow: 0px 2px 4px #e12e1e;
 }
 
-/* Top Box */
+/* Top box */
+
 .top-box {
     background: #ddd;
     display: grid;
@@ -95,7 +99,9 @@ img {
     justify-items: center;
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
     padding: 1.5rem;
+    background: cover;
 }
+
 .box-up {
     grid-area: box-up;
 }
@@ -128,7 +134,6 @@ div#map {
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
     padding: 3rem;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 .form-box {
@@ -149,7 +154,6 @@ form {
     border-radius: 3px;
     padding: 6px 15px;
     margin-bottom: 15px;
-    
 }
 
 .form-box textarea {
@@ -191,14 +195,11 @@ footer {
 
 /* Media Queries */
 @media (max-width: 700px) {
+
     .top-container {
         grid-template-areas: 
-            'showbox showbox'
+            'carousel-wrapper carousel-wrapper'
             'box-up box-down';
-    }
-
-    .showbox h1 {
-        font-size: 2.5rem;
     }
 
     .main-nav ul {
@@ -213,8 +214,9 @@ footer {
 @media (max-width: 500px) {
     .top-container {
         grid-template-areas: 
-        'showbox'
+        'carousel-wrapper'
         'box-up'
         'box-down';
     }
+
 }

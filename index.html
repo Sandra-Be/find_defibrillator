@@ -29,13 +29,13 @@
 <!--Navigation-->
         <nav class="main-nav">
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Search</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#search-map">Search</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 <!--Top Container-->
-        <section class="top-container">
+        <section id="about" class="top-container">
             <div class="carousel-wrapper">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -84,17 +84,24 @@
             </div> 
         </section>
 
-<!--Map and Search section-->
-        <section class="search">
-            <div>
-                <h2>Search for defibrillator</h2>
-                <input>
-                <i class="fas fa-search"></i>
+<!--Map section-->
+        <section id="search-map" class="map-box">
+            <div class="loc-box">
+                <input type="button" class="btn" onclick="iconMap(IRELAND)" value="IRELAND">
+                <input type="button" class="btn" onclick="iconMap(MEATH)" value="County Meath">
+                <input type="button" class="btn" onclick="iconMap(WEXFORD)" value="County Wexford">
+                <input type="button" class="btn" onclick="iconMap(DONEGAL)" value="County Donegal">
+                <input type="button" class="btn" onclick="iconMap(MONAGHAN)" value="County Monaghan">
+                <input type="button" class="btn" onclick="iconMap(GALWAY)" value="County Galway">
+                <input type="button" class="btn" onclick="iconMap(DUBLIN)" value="County Dublin">
+                <input type="button" class="btn" onclick="iconMap(LIMERICK)" value="County Limerick">
+                <input type="button" class="btn" onclick="iconMap(WATERFORD)" value="County Waterford">
+                <input type="button" class="btn" onclick="iconMap(CORK)" value="County Cork">
             </div>
             <div id="map"></div>
         </section>
 <!--Contact Form-->
-        <section class="contact-form">
+        <section id="contact" class="contact-form">
             <div class="form-box">
                 <form onsubmit="return sendMail(this);">
                     <input type="text" name="name" id="fullname" placeholder="Name" class="form-control" required>
@@ -119,6 +126,7 @@
 <!--Frame ends-->
     
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script src="assets/js/markers.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2QSXefEdsrTYgOchwSW3VHcr-uJ5p2sc&callback=initMap"></script>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

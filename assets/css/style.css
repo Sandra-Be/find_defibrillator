@@ -18,6 +18,14 @@ body {
     border: 0;
 }
 
+.btn:hover {
+    background: #e12e1e;
+    color: rgb(249, 253, 16);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+}
+
 
 img {
     max-width: 100%;
@@ -110,21 +118,33 @@ img {
     grid-area: box-down;
 }
 
-/* Search Section */
+/* Map Section */
 
-.search {
+.loc-box {
+    padding: 1.5rem 2rem;
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.map-box {
     background: #ddd;
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    padding: 3rem;
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 10px;
     grid-template-columns: repeat(2, 1fr);
     padding: 3rem;
 }
 
-/* Map */
-
 div#map {
-    min-height: 360px;
+    min-height: 500px;
+    
+}
+
+.icon-content {
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 /* Form */

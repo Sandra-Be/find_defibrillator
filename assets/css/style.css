@@ -204,8 +204,12 @@ div#map {
     
 }
 
-.icon-content {
+.icon-content ul {
     font-family:Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 /* Form */

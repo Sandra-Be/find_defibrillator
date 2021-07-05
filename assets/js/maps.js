@@ -7,18 +7,18 @@ let map;
 // Function to load Google Maps
 function initMap() {
     mapInitial = new google.maps.Map(document.getElementById("map"), {
-        zoom: 7,
+        zoom: 6,
         center: { lat: 53.1424, lng: -7.6921 },
-        disableDefaultUI: true,
+        scrollwheel: true,
     });
 }
 
 // Function for few markers, when button clicked
 function iconMap(category) {
     map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 7,
+        zoom: 6,
         center: { lat: 53.1424, lng: -7.6921 },
-        disableDefaultUI: true,
+        scrollwheel: true,
     });
 
     // Loop through the array looking which button is clicked 
@@ -28,40 +28,40 @@ function iconMap(category) {
 
 }
 
-// Marker Function
+//Marker function
 function addMarker(properties, map) {
-    var marker = new google.maps.Marker({
+    const marker = new google.maps.Marker({
         position: properties.coords,
         map: map,
     });
-
-    // Marker listener to adjust zoom
-    map.addListener("mouseout", () => {
-        window.setTimeout(() => {
-            map.setZoom(7);
-            map.panTo({ lat: 53.1424, lng: -7.6921 });
-        }, 1000);
-    });
-
-    // Marker listener to adjust zoom on click
-    marker.addListener("click", () => {
-        map.setZoom(7);
-        map.setCenter(marker.getPosition());
-    });
-/*
-    // if statement - check for icon
-    if (properties.iconImage) {
-        marker.setIcon(properties.iconImage);
-    }
-*/
-    // Checking for content
     if (properties.content) {
-        var infoWindow = new google.maps.InfoWindow({
-            content: properties.content,
-        });
+        const infoWindow = new google.maps.InfoWindow({
+        content: properties.content
+    });
 
-        marker.addListener("click", function () {
-            infoWindow.open(map, marker);
-        });
+//Open info window when clicked on the marker
+google.maps.event.addListener(marker, 'click', function(){
+    if (!marker.open) {
+        infoWindow.open(map, marker);
+        marker.open = true;
     }
-}
+
+//Close info window when clicked on marker
+    else {
+        infoWindow.close();
+        marker.open = false;
+    }
+
+//Close info window when clicked anywhere else
+    google.maps.event.addListener(map, 'click', function(){
+        infoWindow.close();
+        marker.open = false;
+    });
+});
+
+//Zoom into marker
+google.maps.event.addListener(marker, 'click', function(){
+    map.setZoom(10);
+    map.setCenter(marker.getPosition());
+});
+}}

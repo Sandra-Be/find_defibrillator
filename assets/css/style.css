@@ -222,7 +222,6 @@ div#map {
 }
 
 .form-box {
-    background: #3C4A3E;
     padding: 40px 20px;
     padding-top: 10px;
     margin: 0 auto;
@@ -230,12 +229,21 @@ div#map {
 }
 
 form {
-    padding-top: 70px;
+    padding-top: 25px;
+}
+
+.form-box h1 {
+    text-align: center;
+    padding-bottom: 10px;;
+}
+
+.form-box h6 {
+    text-align: justify;
 }
 
 .form-box input {
     background: none;
-    border: 1px solid #ddd;
+    border: 1px solid #3C4A3E;
     border-radius: 3px;
     padding: 6px 15px;
     margin-bottom: 15px;
@@ -243,15 +251,15 @@ form {
 
 .form-box textarea {
     background: none;
-    border: 1px solid #ddd;
+    border: 1px solid #3C4A3E;
     border-radius: 3px;
 }
 
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #3C4A3E;
-    background-color: #ddd;
+    color: #ddd;
+    background-color: #3C4A3E;
     width: 100%;
 }
 
@@ -261,11 +269,11 @@ button[type="submit"]:hover {
 }
 
 .form-box input::placeholder {
-    color: #ddd;
+    color: #3C4A3E;
 }
 
 .form-box textarea::placeholder {
-    color: #ddd;
+    color: #3C4A3E;
 }
 
 /* Footer */

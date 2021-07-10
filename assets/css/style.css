@@ -2,6 +2,7 @@ html {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: #3C4A3E;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -43,23 +44,26 @@ img {
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
     display: flex;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    z-index: 1;
 }
 
-#navbar h5 {
+.navigation h5 {
     font-size: 50px;
     display: flex;
     padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #3C4A3E;
+    margin: 0;
+}
+
+.navigation h5 img {
+    padding: 0 10px;
 }
 
 #toggle {
     position: absolute;
-    top: 4px;
-    right: 51px;
+    top: 30px;
+    right: 50px;
     width: 60px;
     height: 60px;
     background: #3C4A3E;
@@ -105,16 +109,16 @@ img {
 #menu {
     position: relative;
     height: 60px;
-    right: 111px;
-    background: #5e8d01;
+    right: 60px;
+    background: #ddd;
     transition: 0.5s;
     width: 0px;
     overflow: hidden;
-    top: 4px;
+    top: 0;
 }
 
 #menu.active {
-    width: 660px;
+    width: 350px;
 }
 
 #menu ul {
@@ -226,7 +230,6 @@ img {
 
 .closeBtn {
     color: #ddd;
- /*   float: left; */
     font-size: 30px;
 }
 
@@ -266,14 +269,6 @@ div#map {
     
 }
 
-.icon-content ul {
-    font-family:Arial, Helvetica, sans-serif;
-    list-style: none;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
 /* Form */
 
 .contact-form {
@@ -284,7 +279,7 @@ div#map {
 }
 
 .form-box {
-    padding: 40px 20px;
+    padding: 25px 15px;
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
@@ -341,7 +336,7 @@ button[type="submit"]:hover {
 /* Footer */
 
 footer {
-    margin-top: 2rem;
+    margin-top: 1rem;
     background: #3C4A3E;
     color: #ddd;
     text-align: center;
@@ -371,12 +366,28 @@ footer a i:hover {
             'box-up box-down';
     }
 
-    .main-nav ul {
+    .map-box {
         grid-template-columns: 1fr;
     }
 
-    .search {
-        grid-template-columns: 1fr;
+    .navigation h5 {
+        display: none;
+    }
+
+    .loc-box {
+/*
+        padding: 1rem 1.5rem;
+        text-align: center;
+        display: grid;
+        grid-gap: 10px;
+*/
+        grid-template-columns: 2fr;
+    }
+    .form-box {
+        padding: 10px 5px;
+        padding-top: 5px;
+        margin: 0 auto;
+        max-width: 90%;
     }
 }
 

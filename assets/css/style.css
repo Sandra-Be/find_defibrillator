@@ -118,7 +118,7 @@ img {
 }
 
 #menu.active {
-    width: 350px;
+    width: 400px;
 }
 
 #menu ul {
@@ -158,12 +158,22 @@ img {
         'carousel-wrapper carousel-wrapper box-down';
 }
 
-/* Carousel-wrapper */
+/* carousel-wrapper */
 
 .carousel-wrapper {
     grid-area: carousel-wrapper;
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    background: cover;
+    padding: 3rem;
+    background: #3C4A3E;
+    display: grid;
+    align-items: center;
 }
+
+.carousel-item img {
+    background: cover;
+}
+
 /* Top box */
 
 .top-box {
@@ -205,7 +215,7 @@ img {
     width: 50%;
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
     animation-name: modalopen;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 
 .modal-header h2 {

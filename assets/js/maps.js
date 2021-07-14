@@ -13,6 +13,28 @@ function initMap() {
     });
 }
 
+// users current location
+navigator.geolocation.getCurrentPosition(
+    function (position) {
+        initMap(position.coords.latitude, position.coords.longitude);
+    },
+    function errorCallback(error) {
+        console.log(error);
+    }
+);
+    function initMap(lat, lng) {
+        var myLatLng = {lat, lng,};
+        var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 6,
+            center: myLatLng,
+        });
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+        });
+}
+
+
 // Function for few markers, when button clicked
 function iconMap(category) {
     map = new google.maps.Map(document.getElementById("map"), {
@@ -64,4 +86,5 @@ google.maps.event.addListener(marker, 'click', function(){
     map.setZoom(10);
     map.setCenter(marker.getPosition());
 });
-}}
+    }
+}

@@ -14,7 +14,7 @@ body {
 .btn {
     background: #3C4A3E;
     color: #fafafa;
-    padding: 0.6rem 1.3rem;
+    padding: 0.5rem 1rem;
     text-decoration: none;
     border: 0;
 }
@@ -22,7 +22,7 @@ body {
 .btn:hover {
     background: #e12e1e;
     color: rgb(249, 253, 16);
-    padding: 0.6rem 1.3rem;
+    padding: 0.5rem 1rem;
     text-decoration: none;
     border: 0;
 }
@@ -164,7 +164,6 @@ img {
     grid-area: carousel-wrapper;
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
     background: cover;
-    padding: 3rem;
     background: #3C4A3E;
     display: grid;
     align-items: center;
@@ -182,7 +181,7 @@ img {
     align-items: center;
     justify-items: center;
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-    padding: 1.5rem;
+    padding: 1rem;
     background: cover;
 }
 
@@ -192,6 +191,10 @@ img {
 
 .box-down {
     grid-area: box-down;
+}
+
+.info {
+    font-size: 14px;
 }
 
 /* Modal Section */
@@ -256,27 +259,10 @@ img {
 
 /* Map Section */
 
-.loc-box {
-    padding: 1.5rem 2rem;
-    text-align: center;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
-.map-box {
-    background: #ddd;
+div#myMap {
+    height: 500px;
+    width: 100%;
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-    padding: 3rem;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 3rem;
-}
-
-div#map {
-    min-height: 500px;
-    
 }
 
 /* Form */
@@ -368,7 +354,7 @@ footer a i:hover {
 }
 
 /* Media Queries */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
 
     .top-container {
         grid-template-areas: 
@@ -376,16 +362,9 @@ footer a i:hover {
             'box-up box-down';
     }
 
-    .map-box {
-        grid-template-columns: 1fr;
-    }
 
     .navigation h5 {
         display: none;
-    }
-
-    .loc-box {
-        grid-template-columns: 2fr;
     }
     
     .form-box {

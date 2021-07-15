@@ -33,7 +33,7 @@
             <div id="menu">
                 <ul>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#search-map">Search</a></li>
+                    <li><a href="#myMap">Search</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -67,12 +67,12 @@
             </div>
             <div class="top-box box-up">
                 <h4>AED</h4>
-                <p class="info"><strong>An Automated External Defibrillator (AED)</strong> is used to help those experiencing sudden cardiac arrest. It's a sophisticated, yet easy-to-use, medical device that can analyze the heart's rhythm and, if necessary, deliver an electrical shock, or defibrillation, to help the heart re-establish an effective rhythm.</p>
+                <p class="info"><strong>An Automated External Defibrillator (AED)</strong> is used to help those experiencing sudden cardiac arrest.</p>
                 <a href="https://www.emssafetyservices.com/how-to/aed-101/" target="_blank" class="btn">Read More</a>
             </div>
             <div class="top-box box-down">
                 <h4>AED Training</h4>
-                <p class="info">Do you want to learn how and when to use an automated external defibrillator (AED)? You can save someones life. Click the button and find more about available courses.</p>
+                <p class="info">Do you want to learn how and when to use an automated external defibrillator (AED)? Click on the button and find more about available courses.</p>
                 <button id="modalBtn" class="btn">Find More</button>
                 <div id="simpleModal" class="modal">
                     <div class="modal-content">
@@ -99,21 +99,8 @@
             </div> 
         </section>
 <!--Map section-->
-        <section id="search-map" class="map-box">
-            <div class="loc-box">
-                <input type="button" class="btn" onclick="iconMap(IRELAND)" value="IRELAND">
-                <input type="button" class="btn" onclick="iconMap(MEATH)" value="County Meath">
-                <input type="button" class="btn" onclick="iconMap(WEXFORD)" value="County Wexford">
-                <input type="button" class="btn" onclick="iconMap(DONEGAL)" value="County Donegal">
-                <input type="button" class="btn" onclick="iconMap(MONAGHAN)" value="County Monaghan">
-                <input type="button" class="btn" onclick="iconMap(GALWAY)" value="County Galway">
-                <input type="button" class="btn" onclick="iconMap(DUBLIN)" value="County Dublin">
-                <input type="button" class="btn" onclick="iconMap(LIMERICK)" value="County Limerick">
-                <input type="button" class="btn" onclick="iconMap(WATERFORD)" value="County Waterford">
-                <input type="button" class="btn" onclick="iconMap(CORK)" value="County Cork">
-                <input type="button" class="btn" onclick="iconMap(ROSCOMMON)" value="County Roscommon">
-            </div>
-            <div id="map"></div>
+        <section>
+           <div id="myMap"></div>
         </section>
 <!--Contact Form-->
         <section id="contact" class="contact-form">
@@ -142,8 +129,7 @@
 <!--Frame ends-->
     
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script src="assets/js/markers.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2QSXefEdsrTYgOchwSW3VHcr-uJ5p2sc&callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmGTIRcpIYArfTvUSBFednnansCY0hdhM&callback=getLocation"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

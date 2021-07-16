@@ -49,11 +49,9 @@
 
 # Introduction
 
-This website is built for anyone who whants to find location of nearest AED (Automated External Defibrillator). The website features more insights about an AED. 
+This website will be primarily used by the general public to find an AED unit in times of emergency, or to just know where the defibrillator unit is for future reference. Is also set up for community groups, sports centers and local businesses etc. to allow advertisement of the defibrillator for public use with contact information to be available to the public. This website has the capacity to save lifes in rural settings where an emergency teams will take too long to safe a life. The website features more insights about an AED product. 
 
-It's a simple, easy, and understandable website for different age group people providing them with clear information of 
-
-This website addresses the needs of people to find all the information that they need to find them nearest defibrillator.
+It's a simple, easy, and understandable website for different age group people which will quicly allow the user to find location of life saving equipment. 
 
 # UX
 
@@ -63,8 +61,9 @@ This website addresses the needs of people to find all the information that they
 * Create online presence
 * Promote an AED products
 * Provide information about defibrillator
-* Provide a contact form for people
-* Provide an opportunity to search for defibrillator
+* Links available for product training
+* Provide a contact locallity form for people
+* Provide an opportunity to locate an AED unit
 * Provide a social link for product purchase
 
 ![Strategy](assets/project_files/website/ "Strategy")
@@ -72,7 +71,8 @@ This website addresses the needs of people to find all the information that they
 ### Target audience
 
 * People looking for a information about a defibrillator
-* People looking for a location of nearest AED
+* People looking for a location of nearest AED unit
+* Rural communities
 * Firefighters
 * Lifeguards
 * Flight attendants
@@ -84,58 +84,61 @@ This website addresses the needs of people to find all the information that they
 
 ### External Visitor's goal's
 
-* To find an AED
+* To find an AED unit
 * To find easy accessable information about product
-* To find locations of nearest AED's
-* To be able to navigate throughout the site and find any information required
-* To find a way how to contact for an advice or help
-* To locate a link for external resource
+* To find locations of nearest AED unit
+* To be able to quickly navigate throughout the site and find any information required
+* To find a way to train new members in rural group settings
+* To locate a link for an external resource
 
 ### Ideal client
 
-* A client who is non-medical personnel
-* A client who has family members of high-risk persons
-* A client who wants to know more about AED
+* A client who is a non-medical personnel
+* A client who has a family members of high-risk persons
+* A client who wants to know more about an AED unit
+* A client who is seeking an emergency assistance on the island of Ireland
 
 ### Site Owner's goal's
 
-* To build awareness of the AED
-* To provide map with locations for product
-* To provide a contact form for the people
+* To build a platform to be able to grow an AED awarness
+* To provide a map with locations for product
+* To provide a contact locallity form for the public
 * To provide a link to external resource
 
 ## Scope
 ### User stories
 
-1. As a new client to this website, I want to find information that is quick and easy to navigate through the website, so that I can find what I need.
-2. As a new client to this website, I want to get a quality information about product, so I can trust in the provided product.
-3. As a new client to this website, I want to learn more about the AED, so I can help person on crucial moment. 
-4. As a new client to this website, I want to know how to contact for help, so I know how to enquire about the situation.
-5. As a new client to this website, I want to se external resource link for products, so I can purchase a product.
+1. As a new client to this website, I want to find information that is quick and easy to navigate through the website, so that I can potencionaly save a life and help a person in their a crucial moment..
+2. As a new client to this website, I want to get a quality information about the product, so I can trust in the provided product. 
+3. As a new client to this website, I want to know how to develop training requirements for use of the product, so I know how to react at the time of the emergency.
+4. As a new client to this website, I want to join this public access site, so the public can use my product in their time of need.
+5. As a new client to this website, I want to access external resource link for products, so I can purchase a product.
 
 ### Features
 
 * An easy navigation throughout the website to quickly find any information required
-* A map with search option
-* A Contact Form to contact for more information
-* A link to an external resource 
+* A link button for up to date information on AED products
+* A link button to provide a optimal training for the AED product
+* A map with product locations and eircode for quick access
+* A map provides users current location
+* A Contact Locallity Form to share the information to the general public
+* A link for public or community groups etc. to be able to purchase a product  
 * A responsive design to be able target broader audiences
 
 ### Content
 
 1. **Navigation** 
-   * Responsive navigation bar
+   * Responsive navigation toggle bar
 2. **Top Container** 
    * Contains multiple images of product
    * Link for more information about product
-   * Link for more courses
-3. **Map and Search section**
-   * Search bar
-   * Map with locations of product
-4. **Contact Form**
-   *
+   * Link for more training courses
+3. **Map section**
+   * Map with locations of product and users current location
+4. **Contact Locallity Form**
+   * Form for advertiser of the product
 3. **Footer** 
-   * Link to a social media
+   * Link to a social media and purchase of the product
 
 
 ## Structure
@@ -198,7 +201,9 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 
 ## Features to Implement in future
 
-
+* In future website will be a global site
+* Have a database of life saving product locations worldwide
+* Manufactures will advertise the website with every public access group
 
 # Testing
 
@@ -306,6 +311,6 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ## Acknowledgements 
 
-* I was inspired to create this project after I heard incident on radio about Christian Eriksen a Danish professional footballer.
+* I was inspired to create this project after I heard the incident on radio about Christian Eriksen a Danish professional footballer. This set me on the path living in Ireland where vast parts of the country have no immediate access to hospitals or life saving equipment and I wanted to come up with an idea to change that.
 * My mentor for helpful feedback.
 * Student support at Code Institute Slack platform for their support.

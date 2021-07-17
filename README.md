@@ -175,7 +175,7 @@ Top containers carousel images are designed to strike and catch the user's atten
 
 ### Languages
 
-This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup Language (HTML), [CSS3](https://en.wikipedia.org/wiki/CSS) Cascading Style Sheets (CSS) and programming languages.
+This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup Language (HTML), [CSS3](https://en.wikipedia.org/wiki/CSS) Cascading Style Sheets (CSS) and [JS](https://en.wikipedia.org/wiki/JavaScript) Javascript (JS).
 
 ### Technologies Used
 
@@ -188,6 +188,9 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 * Project code stored on [GitHub](https://github.com/).
 * [gitpod.io](https://gitpod.io/workspaces) was used for coding.
 * Wireframes were created on [Balsamiq](https://balsamiq.com/).
+* [EmailJS services](https://dashboard.emailjs.com/sign-in) used for user to send an email.
+* [Google Maps API](https://developers.google.com/maps/gmp-get-started#quickstart) used for interactive map with icons and directions.
+* [SweetAlert](https://sweetalert.js.org/guides/#installation) for pop-up message after email has been sent.
 
 # Completed Live Site
 
@@ -196,7 +199,16 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 
 ## Existing features 
 
-
+1. **Navigation** 
+   Navigation bar is fixed on top for website and it is responsive. Toggle is attached to bar and opens on click through javascript functions.
+2. **Top Container** 
+   Bootstrap Carousel images for Top Container/About section grabs users attention. Two separate boxes beside images allows user to search for more information about product and also discover more opportunities for trainings courses. Training courses are displayed on modal pop-up activated by Javascript code.
+3. **Map section**
+   Map displays defibrillator location in island of Ireland and users current location. Clicking on marker reveals direction from users current location to clicked marker. Each marker has info window with eircode, address of location and link to google Maps for location on marker.
+4. **Contact Locallity Form**
+   * Form for advertiser of the product
+3. **Footer** 
+   * Link to a social media and purchase of the product
 
 ## Features to Implement in future
 
@@ -227,7 +239,11 @@ To validate every page of the project, that there were no syntax errors, these t
 
 ## User stories testing
 
-
+1. As a new client to this website, I want to find information that is quick and easy to navigate through the website, so that I can potencionaly save a life and help a person in their a crucial moment..
+2. As a new client to this website, I want to get a quality information about the product, so I can trust in the provided product. 
+3. As a new client to this website, I want to know how to develop training requirements for use of the product, so I know how to react at the time of the emergency.
+4. As a new client to this website, I want to join this public access site, so the public can use my product in their time of need.
+5. As a new client to this website, I want to access external resource link for products, so I can purchase a product.
 
 ## Functional testing
 
@@ -236,14 +252,18 @@ Throughout the website every link, field and icon was tested and all results are
 | Location | Type | Expected Result | Actual Result | Pass/Fail/Not executed|
 | :----: | :----: | :----: | :----: | :----: |
 | Navigation | *About* link | Click on *About* navigates to Top of page | Navigates to Top of page | Pass |
-| Navigation | *Search* link | Click on *Search* link navigates to Search and Map section | Navigates to Search and Map section | Pass |
-| Navigation | *Contact* link | Click on *Contact* link navigates to Contact Form | Navigates to Contact Form | Pass |
-| Top Container | *Read More* link | Click on *Read More* link navigates to website | Navigates to website | Pass |
-| Top Container | *Find More* link | Click on *Find More* link navigates to website | Navigates to website | Pass |
-| Search bar | *Search* field | Click on *Search* field and type location, will generate location on map | Generates location on map | Pass |
+| Navigation | *Locations* link | Click on *Locations* link navigates to Map section | Navigates to Map section | Pass |
+| Navigation | *Contact* link | Click on *Contact* link navigates to AED Locallity Form | Navigates to AED Locallity Form | Pass |
+| Top Container | *Read More* button | Click on *Read More* button navigates to [website](https://www.emssafetyservices.com/how-to/aed-101/) | Navigates to [website](https://www.emssafetyservices.com/how-to/aed-101/) | Pass |
+| Top Container | *Find More* button | Click on *Find More* button navigates to separate pop-up modal | Navigates to separate pop-up modal | Pass |
+| Modal | Website *links* | Each *links* in modal navigates to different websites fo more info | Navigates to different websites for more info | Pass |
+| Map | *Markers* on the map | Click on *Marker* shows info window with location and generates direction from current location on map | Shows info window with location and generates direction from current location on map | Pass |
+| AED Locallity Form | *Input* fields | *Input* fields require information from user | Reguire information from user | Pass |
+| AED Locallity Form | *Send message* button | *Send message* button sends message to an email | Sends message to an email | Pass |
+| AED Locallity Form | *Send message* button activates pop-up message for confirmation | Activates pop-up message for confirmation | Pass |
 | Footer | *LinkedIn* icon | Click on icon navigates to LinkedIn social media feed | Navigates to LinkedIn social media feed | Pass |
 | Footer | *GitHub* icon | Click on icon navigates to GitHup repository | Navigates to GitHub repository | Pass |
-| Footer | *Cart* icon | Click on icon navigates to website | Navigates to website | Pass |
+| Footer | *Cart* icon | Click on icon navigates to [website](https://www.medguard.ie/defibrillators.html) | Navigates to [website](https://www.medguard.ie/defibrillators.html) | Pass |
 
 # Deployment
 
@@ -293,12 +313,13 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ## Images and text
 
-* The text for the rest of the website was created by Sandra Berzkalna.
+* The text for website was created by Sandra Berzkalna and obtained from google.com.
 * All photos used on this website were obtained from google.com.
 
 ## Code
 
 * Responsive Grid CSS layout using grid template areas for Home Page was originally taken from [Traversy Media channel on YouTube](https://www.youtube.com/watch?v=moBhzSC455o) and then modified.
+* GoogleAPI current location code idea taken and modified from [github.com](https://github.com/shanegibney/googleAPIcurrentLocation/blob/master/index.html).
 
 ## Helpfull sites
 
@@ -307,6 +328,8 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 * [stackoverflow.com](https://stackoverflow.com/) - website for code tips.
 * [learn.codeinstutute.net](https://learn.codeinstitute.net/login?next=/) - HTML, CSS, Bootstrap and JavaScript study materials.
 * [www.markdownguide.org](https://www.markdownguide.org/basic-syntax) - useful website for Markdown language creating README.md file.
+* [Google Maps Platform](https://developers.google.com/maps/documentation/javascript/get-api-key) - website for obtaining API key and how to implement it on website.
+* [github.com](https://github.com/) - code snippets for project.
 
 ## Acknowledgements 
 

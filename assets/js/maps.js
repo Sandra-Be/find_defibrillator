@@ -45,6 +45,7 @@ function geoSuccess(position) {
         position: myLatLng,
         map: map,
         title: 'Your current location',
+        iconImage: 'http://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
     });
 
     var markers = [
@@ -80,82 +81,82 @@ function geoSuccess(position) {
 // InfoWindow content
     var infoWindowContent = [
         [
-            '<div class="info_content">' + '<h5>EirCode T12 TF99</h5>' + '<p>33 Oliver Plunkett Street, Centre, Cork</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode T12 TF99</h5>' + '<p>33 Oliver Plunkett Street, Centre, Cork</p>' + '<a href="https://goo.gl/maps/dnoZiEJswtjgSHmS6">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode V94 EYW5</h5>' + '<p>Ballyvareen, Kildimo, County Limerick</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode V94 EYW5</h5>' + '<p>Ballyvareen, Kildimo, County Limerick</p>' + '<a href="https://goo.gl/maps/TScQPCpsxbkyjk298">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode V94 VYC6</h5>' + '<p>East Square, Askeaton, County Limerick</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode V94 VYC6</h5>' + '<p>East Square, Askeaton, County Limerick</p>' + '<a href="https://goo.gl/maps/sNyXNcBbPzKkbzFF9">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode V42 WD90</h5>' + '<p>Gortnaclohy, Ashford, Ballagh, County Limerick</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode V42 WD90</h5>' + '<p>Gortnaclohy, Ashford, Ballagh, County Limerick</p>' + '<a href="https://goo.gl/maps/nMhYRBQmgK9spjh58">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode V94 C677</h5>' + '<p>Cloncagh, Ballingarry, County Limerick</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode V94 C677</h5>' + '<p>Cloncagh, Ballingarry, County Limerick</p>' + '<a href="https://goo.gl/maps/1bVkX3PsgTdVnwNY7">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode V94 F5N7</h5>' + '<p>Smithfield, Croagh, County Limerick</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode V94 F5N7</h5>' + '<p>Smithfield, Croagh, County Limerick</p>' + '<a href="https://goo.gl/maps/uhjfj5mXZbhQMgJS6">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode D11 Y564</h5>' + '<p>Grofton Hall, Jamestown Road, Dublin 11</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode D11 Y564</h5>' + '<p>Grofton Hall, Jamestown Road, Dublin 11</p>' + '<a href="https://goo.gl/maps/e4vqjB3mycFE4oMD9">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode Y21 C6F7</h5>' + '<p>Applegreen, Ferns Lower, County Wexford</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode Y21 C6F7</h5>' + '<p>Applegreen, Ferns Lower, County Wexford</p>' + '<a href="https://goo.gl/maps/8JsTyAw3p6o8SHxA8">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode Y21 T9K5</h5>' + '<p>Near GAA club, Ferns Upper, County Wexford</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode Y21 T9K5</h5>' + '<p>Near GAA club, Ferns Upper, County Wexford</p>' + '<a href="https://goo.gl/maps/MPWp7ep4eZmUgaJb9">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode Y21 F228</h5>' + '<p>Clonee Lower, County Wexford</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode Y21 F228</h5>' + '<p>Clonee Lower, County Wexford</p>' + '<a href="https://goo.gl/maps/44yUUWEVYyQjFfjX7">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode A83 N722</h5>' + '<p>Rathcore, County Meath</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode A83 N722</h5>' + '<p>Rathcore, County Meath</p>' + '<a href="https://goo.gl/maps/BG1bYHXSthdSBN66A">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode A83 RH22</h5>' + '<p>Enfield Credit Union, Main street, Enfield, County Meath</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode A83 RH22</h5>' + '<p>Enfield Credit Union, Main street, Enfield, County Meath</p>' + '<a href="https://goo.gl/maps/BULHaRYKaRFyWQ9JA">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode A83 CA47</h5>' + '<p>Ballynaskea, Enfield, County Meath</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode A83 CA47</h5>' + '<p>Ballynaskea, Enfield, County Meath</p>' + '<a href="https://goo.gl/maps/3UdzqhmGBG4Rj6xt8">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode H91 R94H</h5>' + '<p>Corrandulla Community Hall, Ballybeg, County Galway</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode H91 R94H</h5>' + '<p>Corrandulla Community Hall, Ballybeg, County Galway</p>' + '<a href="https://goo.gl/maps/zFceWL3E466Qb6ip6">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode F45 D891</h5>' + '<p>Fr. Flanagan Centre, Ballymoe, Castlerea, County Galway</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode F45 D891</h5>' + '<p>Fr. Flanagan Centre, Ballymoe, Castlerea, County Galway</p>' + '<a href="https://goo.gl/maps/RbaQ1drwAAsjNnvR8">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode F42 X674</h5>' + '<p>Near Creggs Central National School, Creggs, County Galway</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode F42 X674</h5>' + '<p>Near Creggs Central National School, Creggs, County Galway</p>' + '<a href="https://goo.gl/maps/UXhGj7tMhyGCf9za9">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode A75 P822</h5>' + '<p>Main Street, Castleblayney, County Monaghan</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode A75 P822</h5>' + '<p>Main Street, Castleblayney, County Monaghan</p>' + '<a href="https://goo.gl/maps/8NLLmY3KUrft6EZy6">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode F92 TF6A</h5>' + '<p>Whoriskey Eurospar, The Mall, Ballyboe, Ramelton, County Donegal</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode F92 TF6A</h5>' + '<p>Whoriskey Eurospar, The Mall, Ballyboe, Ramelton, County Donegal</p>' + '<a href="https://goo.gl/maps/jcEC69bXMtWLH4kD7">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode F42 RY88</h5>' + '<p>Circle K, Circular road, Roscommon</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode F42 RY88</h5>' + '<p>Circle K, Circular road, Roscommon</p>' + '<a href="https://goo.gl/maps/P6FhzZ9RdQPpNAXK8">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode F42 X275</h5>' + '<p>St.Comans Wood, Circular road, Roscommon</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode F42 X275</h5>' + '<p>St.Comans Wood, Circular road, Roscommon</p>' + '<a href="https://goo.gl/maps/JqXbb7cXcqu8yDWy6">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode F42 KV90</h5>' + '<p>Near Cloonybeirne, The Walk, Roscommon</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode F42 KV90</h5>' + '<p>Near Cloonybeirne, The Walk, Roscommon</p>' + '<a href="https://goo.gl/maps/numk74uo5w7aAqGv5">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode F42 NY75</h5>' + '<p>Roxboro National School, Roxborough, Roscommon</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode F42 NY75</h5>' + '<p>Roxboro National School, Roxborough, Roscommon</p>' + '<a href="https://goo.gl/maps/rWNTDHSNaU1Wq88QA">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode F42 VF61</h5>' + '<p>Near Clarke Machinery Roscommon, N61 Mullymucks, Roscommon</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode F42 VF61</h5>' + '<p>Near Clarke Machinery Roscommon, N61 Mullymucks, Roscommon</p>' + '<a href="https://goo.gl/maps/9N7Vrcqp4Ffzpspj8">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode F42 FK83</h5>' + '<p>Circle K, Racecourse Road, Roscommon</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode F42 FK83</h5>' + '<p>Circle K, Racecourse Road, Roscommon</p>' + '<a href="https://goo.gl/maps/q5LCe1gvc6yxagMc8">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode F42 XY31</h5>' + '<p>Near Athleague GAA club, Cloonykelly, Athleague, County Roscommon</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode F42 XY31</h5>' + '<p>Near Athleague GAA club, Cloonykelly, Athleague, County Roscommon</p>' + '<a href="https://goo.gl/maps/XoaYsiMGEnr8wRn77">Get Directions</a>' + '</div>'
         ],
         [
-            '<div class="info_content">' + '<h5>EirCode F42 AE18</h5>' + '<p>Near Texaco N63, Athleague, County Roscommon</p>' + '</div>'
+            '<div class="info_content">' + '<h5>EirCode F42 AE18</h5>' + '<p>Near Texaco N63, Athleague, County Roscommon</p>' + '<a href="https://goo.gl/maps/X7Vfo2ZiFh3RRsp28">Get Directions</a>' + '</div>'
         ]
     ];
 

@@ -130,16 +130,15 @@ It's a simple, easy, and understandable website for different age group people w
 1. **Navigation** 
    * Responsive navigation toggle bar
 2. **Top Container** 
-   * Contains multiple images of product
-   * Link for more information about product
-   * Link for more training courses
+   * Contains carousel images of product
+   * Button for more information about product
+   * Button to activate pop-up modal for more training courses
 3. **Map section**
    * Map with locations of product and users current location
 4. **Contact Locallity Form**
    * Form for advertiser of the product
 3. **Footer** 
    * Link to a social media and purchase of the product
-
 
 ## Structure
 ### Site structure
@@ -162,7 +161,7 @@ Gradient colour palette from [mycolor.space](http://mycolor.space) is used for s
 
 ![Gradient colour](assets/project_files/website/gradient.jpg "Gradient colour")
 
-Colours of dark grey, light grey and green palette [mycolor.space](http://mycolor.space)is used throughout site.
+Colours of dark grey, light grey and green palette [mycolor.space](http://mycolor.space) is used throughout site.
 
 ![Colour palette](assets/project_files/website/d_color_palette.jpg "Colour palette")
 
@@ -172,7 +171,7 @@ Arial, Helvetica fonts are the main fonts for website and Sans Serif font is use
 
 ### Media
 
-Top containers images with animation is designed to strike and catch the user's attention to promote the product.
+Top containers carousel images are designed to strike and catch the user's attention to promote the product.
 
 ### Languages
 
@@ -181,7 +180,7 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 ### Technologies Used
 
 * [mycolor.space](http://mycolor.space) - used for colour palette throughout the site.
-* [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - to simplify the structure of the website and make the website responsive easily.
+* [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - to simplify the structure of the form and make the form responsive easily.
 * [Google Fonts](https://fonts.google.com/) - were used throughout the site.
 * Icons on website were added with [Font Awesome](https://fontawesome.com/).
 * [JQuery](https://jquery.com/) came with Bootstrap.

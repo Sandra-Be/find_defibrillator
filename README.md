@@ -2,7 +2,7 @@
 
 ![Find Defibrillator](assets/project_files/website/ "Find Defibrillator")
 
-* [Click here](https://sandra-be.github.io/) and view the live project.
+* [Click here](https://github.com/Sandra-Be/find_defibrillator.git) and view the live project.
 
 # Table of contents
 
@@ -153,7 +153,7 @@ It's a simple, easy, and understandable website for different age group people w
 
 ### Wireframes
 
-![Wireframes](assets/project_files/wireframes/d_wireframe.png "Wireframes") 
+![Wireframes](assets/project_files/wireframes/aed_wireframe.png "Wireframes") 
 
 ## Design
 ### Colour scheme
@@ -192,7 +192,7 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 
 # Completed Live Site
 
-* [Click here](https://sandra-be.github.io/) and view the live project.
+* [Click here](https://github.com/Sandra-Be/find_defibrillator.git) and view the live project.
 
 
 ## Existing features 

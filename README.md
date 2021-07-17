@@ -62,11 +62,11 @@ It's a simple, easy, and understandable website for different age group people w
 * Promote an AED products
 * Provide information about defibrillator
 * Links available for product training
-* Provide a contact locallity form for people
+* Provide a contact locality form for people
 * Provide an opportunity to locate an AED unit
 * Provide a social link for product purchase
 
-![Strategy](assets/project_files/website/ "Strategy")
+![Strategy](assets/project_files/website/strategy_def.jpg "Strategy")
 
 ### Target audience
 
@@ -102,7 +102,7 @@ It's a simple, easy, and understandable website for different age group people w
 
 * To build a platform to be able to grow an AED awarness
 * To provide a map with locations for product
-* To provide a contact locallity form for the public
+* To provide a contact locality form for the public
 * To provide a link to external resource
 
 ## Scope
@@ -121,7 +121,7 @@ It's a simple, easy, and understandable website for different age group people w
 * A link button to provide a optimal training for the AED product
 * A map with product locations and eircode for quick access
 * A map provides users current location
-* A Contact Locallity Form to share the information to the general public
+* A Contact Locality Form to share the information to the general public
 * A link for public or community groups etc. to be able to purchase a product  
 * A responsive design to be able target broader audiences
 
@@ -135,7 +135,7 @@ It's a simple, easy, and understandable website for different age group people w
    * Button to activate pop-up modal for more training courses
 3. **Map section**
    * Map with locations of product and users current location
-4. **Contact Locallity Form**
+4. **Contact Locality Form**
    * Form for advertiser of the product
 3. **Footer** 
    * Link to a social media and purchase of the product
@@ -143,7 +143,7 @@ It's a simple, easy, and understandable website for different age group people w
 ## Structure
 ### Site structure
 
-![Structure](assets/project_files/website/ "Structure")
+![Structure](assets/project_files/website/structure_def.jpg "Structure")
 
 ## Skeleton
 ### Quick sketch
@@ -205,10 +205,10 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
    Bootstrap Carousel images for Top Container/About section grabs users attention. Two separate boxes beside images allows user to search for more information about product and also discover more opportunities for trainings courses. Training courses are displayed on modal pop-up activated by Javascript code.
 3. **Map section**
    Map displays defibrillator location in island of Ireland and users current location. Clicking on marker reveals direction from users current location to clicked marker. Each marker has info window with eircode, address of location and link to google Maps for location on marker.
-4. **Contact Locallity Form**
-   * Form for advertiser of the product
+4. **Contact Locality Form**
+   Contact form requires users name, email and message about defibrillators location. Forms each fiels has to be filled otherwise form wont allow submit message. After forms fields are filled in, message has been sent to email using EmailJS service and thank you pop-up message shows up.
 3. **Footer** 
-   * Link to a social media and purchase of the product
+   * Links to a social media and purchase of the product
 
 ## Features to Implement in future
 
@@ -258,9 +258,9 @@ Throughout the website every link, field and icon was tested and all results are
 | Top Container | *Find More* button | Click on *Find More* button navigates to separate pop-up modal | Navigates to separate pop-up modal | Pass |
 | Modal | Website *links* | Each *links* in modal navigates to different websites fo more info | Navigates to different websites for more info | Pass |
 | Map | *Markers* on the map | Click on *Marker* shows info window with location and generates direction from current location on map | Shows info window with location and generates direction from current location on map | Pass |
-| AED Locallity Form | *Input* fields | *Input* fields require information from user | Reguire information from user | Pass |
-| AED Locallity Form | *Send message* button | *Send message* button sends message to an email | Sends message to an email | Pass |
-| AED Locallity Form | *Send message* button activates pop-up message for confirmation | Activates pop-up message for confirmation | Pass |
+| AED Locality Form | *Input* fields | *Input* fields require information from user | Reguire information from user | Pass |
+| AED Locality Form | *Send message* button | *Send message* button sends message to an email | Sends message to an email | Pass |
+| AED Locality Form | *Send message* button activates pop-up message for confirmation | Activates pop-up message for confirmation | Pass |
 | Footer | *LinkedIn* icon | Click on icon navigates to LinkedIn social media feed | Navigates to LinkedIn social media feed | Pass |
 | Footer | *GitHub* icon | Click on icon navigates to GitHup repository | Navigates to GitHub repository | Pass |
 | Footer | *Cart* icon | Click on icon navigates to [website](https://www.medguard.ie/defibrillators.html) | Navigates to [website](https://www.medguard.ie/defibrillators.html) | Pass |

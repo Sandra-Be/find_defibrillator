@@ -191,6 +191,7 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 * [EmailJS services](https://dashboard.emailjs.com/sign-in) used for user to send an email.
 * [Google Maps API](https://developers.google.com/maps/gmp-get-started#quickstart) used for interactive map with icons and directions.
 * [SweetAlert](https://sweetalert.js.org/guides/#installation) for pop-up message after email has been sent.
+* [Am I Responsive!](http://ami.responsivedesign.is/) website to review projects responsiveness.
 
 # Completed Live Site
 
@@ -218,31 +219,86 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 
 # Testing
 
+* Tested on Chrome, Firefox and Microsoft Edge desktop version browsers.
+* Chrome DevTools was used to test variety of devices such as Desktop, Laptop, iPhone7, iPhone 8, Galaxy S5 and iPad for responsiveness.
 * Testing was done to ensure that layout and all Links were working correctly.
 
 ## W3C Validation
 
 To validate every page of the project, that there were no syntax errors, these two Validators were used, W3C Validator and W3C CSS Validator. Files of .pdf format is available under each Validator link:
 
-* [W3C Validator](assets/project_files/validators/)
-* [W3C CSS Validator](assets/project_files/validators/)
+* [W3C Validator](assets/project_files/validators/w3c.pdf "W3C Validator)
+* [W3C CSS Validator](assets/project_files/validators/W3C_css.pdf "W3C CSS Validator)
 
 ## Bugs and Issues
 
+Issue with Geocoder failure when requesting responsive design from [Am I responsive!](http://ami.responsivedesign.is/) website:
+
+![Issue](assets/project_files/validators/issue.jpg "Issue")
+
 **W3C Validator**
 
+These warnings repeat throughout all html files.
 
+* *Warning:* The *type* attribute is unnecessary for JavaScript resources.
+
+Warning was fixed by removing the *type* attribute.
+
+* *Error:* An *img* element must have an *alt* attribute, except under certain conditions.
+
+Error was fixed by adding the *alt* attribute.
+
+* *Warning:* Section lacks heading. Consider using *h2* - *h6* elements to add identifying headings to all sections.
+
+Section includes only one element.
 
 **W3C CSS Validator**
 
-
+No warnings or issues were found during validations process
 
 ## User stories testing
 
-1. As a new client to this website, I want to find information that is quick and easy to navigate through the website, so that I can potencionaly save a life and help a person in their a crucial moment..
-2. As a new client to this website, I want to get a quality information about the product, so I can trust in the provided product. 
-3. As a new client to this website, I want to know how to develop training requirements for use of the product, so I know how to react at the time of the emergency.
-4. As a new client to this website, I want to join this public access site, so the public can use my product in their time of need.
+   1. As a new client to this website, I want to find information that is quick and easy to navigate through the website, so that I can potencionaly save a life and help a person in their a crucial moment.
+
+The Navigation bar is implemented into the website, so that any new client is able to find any information quick and easy navigating through th website.
+
+This Navigation bar is implemented on the desktop, laptop and tablet:
+
+![Navigation bar](assets/project_files/user_stories/u1.jpg "Navigation bar")
+![Navigation bar](assets/project_files/user_stories/u2.jpg "Navigation bar")
+
+This Navigation bar is implemented on mobile view:
+
+![Navigation bar](assets/project_files/user_stories/u3.jpg "Navigation bar")
+![Navigation bar](assets/project_files/user_stories/u4.jpg "Navigation bar")
+
+   2. As a new client to this website, I want to get a quality information about the product, so I can trust in the provided product.
+
+Button "Read More" on Top Containers section leads to website which provides trustfull and acurate information about product.
+
+![Read More](assets/project_files/user_stories/u5.jpg "Read More") 
+
+   3. As a new client to this website, I want to know how to develop training requirements for use of the product, so I know how to react at the time of the emergency.
+
+Button "Find More" on Top Containers section leads to the pop-up modal with the list of available training courses.
+
+![Find More](assets/project_files/user_stories/u6.jpg "Find More") 
+![Find More](assets/project_files/user_stories/u7.jpg "Find More") 
+
+   4. As a new client to this website, I want to join this public access site, so the public can use my product in their time of need.
+
+Defibrillator location map displays AED units location in island of Ireland and users current location. 
+
+![Map](assets/project_files/user_stories/u9.jpg "Map")
+
+Clicking on marker reveals direction from users current location to clicked marker. Each marker has info window with eircode, address of location and link to google Maps for location on marker.
+
+![Map](assets/project_files/user_stories/u10.jpg "Map")
+
+Section AED Locality Form offers user to share information about defibrillator with me, so I can place new location with marker on map and public has access in their time of need.
+
+![Form](assets/project_files/user_stories/u8.jpg "Form")
+
 5. As a new client to this website, I want to access external resource link for products, so I can purchase a product.
 
 ## Functional testing
@@ -270,7 +326,7 @@ Throughout the website every link, field and icon was tested and all results are
 ## Deploying on GitHub Pages
 
 1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-2. Locate the [GitHub Repository](https://github.com/Sandra-Be/find_defibrillator.git).
+2. Locate the [GitHub Repository](https://sandra-be.github.io/find_defibrillator/).
 3. At the top of the repository, select Settings from the menu items.
 4. Scroll down the Settings page to the "GitHub Pages" section.
 5. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
@@ -281,7 +337,7 @@ Throughout the website every link, field and icon was tested and all results are
 ## Forking the Repository
 
 1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-2. Locate the [GitHub Repository](https://github.com/Sandra-Be/find_defibrillator.git).
+2. Locate the [GitHub Repository](https://sandra-be.github.io/find_defibrillator/).
 3. At the top of the repository, on the right side of the page, select "Fork".
 4. You should now have a copy of the original repository in your GitHub account.
 
@@ -290,13 +346,13 @@ Throughout the website every link, field and icon was tested and all results are
 1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension) Extension for Chrome.
 2. After installation, restart the browser.
 3. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-4. Locate the [GitHub Repository](https://github.com/Sandra-Be/find_defibrillator.git).
+4. Locate the [GitHub Repository](https://sandra-be.github.io/find_defibrillator/).
 5. Click the green "GitPod" button in the top right corner of the repository. This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
 
 ### How to run this project within a local IDE, such as VSCode
 
 1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-2. Locate the [GitHub Repository](https://github.com/Sandra-Be/find_defibrillator.git).
+2. Locate the [GitHub Repository](https://sandra-be.github.io/find_defibrillator/).
 3. Under the repository name, click "Clone or download".
 4. In the Clone with HTTPs section, copy the clone URL for the repository.
 5. In your local IDE open the terminal.

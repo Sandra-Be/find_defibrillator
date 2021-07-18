@@ -1,19 +1,5 @@
 // GoogleAPI current location code idea taken and modified from https://github.com/shanegibney/googleAPIcurrentLocation/blob/master/index.html
 
-
-function detectBrowser() {
-    var useragent = navigator.userAgent;
-    var mapdiv = document.getElementById("map");
-
-    if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('Android') != -1) {
-        mapdiv.style.width = '100%';
-        mapdiv.style.height = '100%';
-    } else {
-        mapdiv.style.width = '600px';
-        mapdiv.style.height = '500px';
-    }
-}
-
 var myLatLng;
 var latit;
 var longit;
@@ -216,3 +202,5 @@ function getLocation() {
         alert("Geolocation is not supported by this browser");
     }
 }
+
+

@@ -28,7 +28,6 @@ body {
     border: 0;
 }
 
-
 img {
     max-width: 100%;
 }
@@ -398,11 +397,7 @@ footer a i:hover {
         justify-content: center;
         align-items: center;
     }
-
-    .navigation h5 img {
-        display: none;
-    }
-    
+   
     .form-box {
         padding: 10px 5px;
         padding-top: 5px;
@@ -413,7 +408,6 @@ footer a i:hover {
     #menu.active {
         margin: 0 auto;
     }
-
 }
 
 @media (max-width: 500px) {
@@ -425,7 +419,10 @@ footer a i:hover {
     }
 
     .navigation h5 {
-        display: none;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #menu ul li a {
@@ -449,5 +446,16 @@ footer a i:hover {
 
     .form-box h6 {
         font-size: 12px;
+    }
+
+    #menu {
+        position: relative;
+        height: 60px;
+        right: 60px;
+        background: #ddd;
+        transition: 0.5s;
+        width: 0px;
+        overflow: hidden;
+        top: 70px;
     }
 }

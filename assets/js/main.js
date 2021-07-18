@@ -1,8 +1,8 @@
-// create const for Navigation bar
+// create variables for Navigation bar
 
-const navbar = document.getElementById('navbar');
-const toggle = document.getElementById('toggle');
-const menu = document.getElementById('menu');
+var navbar = document.getElementById('navbar');
+var toggle = document.getElementById('toggle');
+var menu = document.getElementById('menu');
 
 // click function for click on outside navigtion toggle
 

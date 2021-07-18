@@ -316,7 +316,7 @@ Throughout the website every link, field and icon was tested and all results are
 | Map | *Markers* on the map | Click on *Marker* shows info window with location and generates direction from current location on map | Shows info window with location and generates direction from current location on map | Pass |
 | AED Locality Form | *Input* fields | *Input* fields require information from user | Reguire information from user | Pass |
 | AED Locality Form | *Send message* button | *Send message* button sends message to an email | Sends message to an email | Pass |
-| AED Locality Form | *Send message* button activates pop-up message for confirmation | Activates pop-up message for confirmation | Pass |
+| AED Locality Form | *Send message* button | *Send message* button activates pop-up message for confirmation | Activates pop-up message for confirmation | Pass |
 | Footer | *LinkedIn* icon | Click on icon navigates to LinkedIn social media feed | Navigates to LinkedIn social media feed | Pass |
 | Footer | *GitHub* icon | Click on icon navigates to GitHup repository | Navigates to GitHub repository | Pass |
 | Footer | *Cart* icon | Click on icon navigates to [website](https://www.medguard.ie/defibrillators.html) | Navigates to [website](https://www.medguard.ie/defibrillators.html) | Pass |

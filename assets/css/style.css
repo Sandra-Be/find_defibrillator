@@ -175,14 +175,9 @@ section {
 .carousel-wrapper {
     grid-area: carousel-wrapper;
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-    background: cover;
     background: #3C4A3E;
     display: grid;
     align-items: center;
-}
-
-.carousel-item img {
-    background: cover;
 }
 
 /* Top box */
@@ -194,7 +189,6 @@ section {
     justify-items: center;
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
     padding: 1rem 2rem;
-    background: cover;
 }
 
 .top-box i {
@@ -270,7 +264,7 @@ section {
 
 @keyframes modalopen {
     from{ opacity: 0}
-    to{ opacity: 1};
+    to{ opacity: 1}
 }
 
 /* Map Section */

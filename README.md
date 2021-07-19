@@ -49,6 +49,8 @@
 
 # Introduction
 
+I was inspired to create this project after I heard the incident on radio about Christian Eriksen a Danish professional footballer. This set me on the path living in Ireland where vast parts of the country have no immediate access to hospitals or life saving equipment and I wanted to come up with an idea to change that.
+
 This website will be primarily used by the general public to find an AED unit in times of emergency, or to just know where the defibrillator unit is for future reference. Is also set up for community groups, sports centers and local businesses etc. to allow advertisement of the defibrillator for public use with contact information to be available to the public. This website has the capacity to save lifes in rural settings where an emergency teams will take too long to safe a life. The website features more insights about an AED product. 
 
 It's a simple, easy, and understandable website for different age group people which will quicly allow the user to find location of life saving equipment. 
@@ -180,7 +182,7 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 ### Technologies Used
 
 * [mycolor.space](http://mycolor.space) - used for colour palette throughout the site.
-* [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - to simplify the structure of the form and make the form responsive easily.
+* [Bootstrap4](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - to simplify the structure of the navigation bar, image carousel and form, which makes website responsive.
 * [Google Fonts](https://fonts.google.com/) - were used throughout the site.
 * Icons on website were added with [Font Awesome](https://fontawesome.com/).
 * [JQuery](https://jquery.com/) came with Bootstrap.
@@ -201,7 +203,7 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 ## Existing features 
 
 1. **Navigation** 
-   Navigation bar is fixed on top for website and it is responsive. Toggle is attached to bar and opens on click through javascript functions.
+   Navigation bar is fixed on top for website and it is responsive using Bootstrap template.
 2. **Top Container** 
    Bootstrap Carousel images for Top Container/About section grabs users attention. Two separate boxes beside images allows user to search for more information about product and also discover more opportunities for trainings courses. Training courses are displayed on modal pop-up activated by Javascript code.
 3. **Map section**
@@ -265,12 +267,11 @@ The Navigation bar is implemented into the website, so that any new client is ab
 This Navigation bar is implemented on the desktop, laptop and tablet:
 
 ![Navigation bar](assets/project_files/user_stories/u1.jpg "Navigation bar")
-![Navigation bar](assets/project_files/user_stories/u2.jpg "Navigation bar")
 
 This Navigation bar is implemented on mobile view:
 
+![Navigation bar](assets/project_files/user_stories/u2.jpg "Navigation bar")
 ![Navigation bar](assets/project_files/user_stories/u3.jpg "Navigation bar")
-![Navigation bar](assets/project_files/user_stories/u4.jpg "Navigation bar")
 
    2. As a new client to this website, I want to get a quality information about the product, so I can trust in the provided product.
 
@@ -326,7 +327,7 @@ Throughout the website every link, field and icon was tested and all results are
 ## Deploying on GitHub Pages
 
 1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-2. Locate the [GitHub Repository](https://sandra-be.github.io/find_defibrillator/).
+2. Locate the [GitHub Repository](https://github.com/Sandra-Be/find_defibrillator).
 3. At the top of the repository, select Settings from the menu items.
 4. Scroll down the Settings page to the "GitHub Pages" section.
 5. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
@@ -337,7 +338,7 @@ Throughout the website every link, field and icon was tested and all results are
 ## Forking the Repository
 
 1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-2. Locate the [GitHub Repository](https://sandra-be.github.io/find_defibrillator/).
+2. Locate the [GitHub Repository](https://github.com/Sandra-Be/find_defibrillator).
 3. At the top of the repository, on the right side of the page, select "Fork".
 4. You should now have a copy of the original repository in your GitHub account.
 
@@ -346,13 +347,13 @@ Throughout the website every link, field and icon was tested and all results are
 1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension) Extension for Chrome.
 2. After installation, restart the browser.
 3. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-4. Locate the [GitHub Repository](https://sandra-be.github.io/find_defibrillator/).
+4. Locate the [GitHub Repository](https://github.com/Sandra-Be/find_defibrillator).
 5. Click the green "GitPod" button in the top right corner of the repository. This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
 
 ### How to run this project within a local IDE, such as VSCode
 
 1. Log into [GitHub](https://github.com/) or [create an account](https://github.com/).
-2. Locate the [GitHub Repository](https://sandra-be.github.io/find_defibrillator/).
+2. Locate the [GitHub Repository](https://github.com/Sandra-Be/find_defibrillator).
 3. Under the repository name, click "Clone or download".
 4. In the Clone with HTTPs section, copy the clone URL for the repository.
 5. In your local IDE open the terminal.
@@ -389,6 +390,5 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ## Acknowledgements 
 
-* I was inspired to create this project after I heard the incident on radio about Christian Eriksen a Danish professional footballer. This set me on the path living in Ireland where vast parts of the country have no immediate access to hospitals or life saving equipment and I wanted to come up with an idea to change that.
 * My mentor for helpful feedback.
 * Student support at Code Institute Slack platform for their support.

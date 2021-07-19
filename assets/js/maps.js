@@ -1,4 +1,4 @@
-// GoogleAPI current location code idea taken and modified from https://github.com/shanegibney/googleAPIcurrentLocation/blob/master/index.html
+// GoogleAPI current location code idea taken and modified for this project from https://stackoverflow.com/ platform
 
 var myLatLng;
 var latit;
@@ -15,7 +15,7 @@ function geoSuccess(position) {
         zoom: 6,
         center: new google.maps.LatLng(latitude, longitude),
     };
-
+// GoogleAPI Travel modes in directions code idea taken and modified from https://developers.google.com/maps/documentation/javascript/examples/directions-travel-modes?hl=en#maps_directions_travel_modes-typescript
     var map = new google.maps.Map(document.getElementById("myMap"), mapProp);
 
     var directionsService = new google.maps.DirectionsService;
@@ -26,14 +26,14 @@ function geoSuccess(position) {
 
     var bounds = new google.maps.LatLngBounds();
 
-// multiple Markers
+// users current locations marker
     var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
         title: 'Your current location',
         iconImage: 'http://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
     });
-
+// markers for defibrillator locations
     var markers = [
         ['EirCode T12 TF99', 51.897218, -8.471106],
         ['EirCode V94 EYW5', 52.623420, -8.811364],
@@ -146,11 +146,11 @@ function geoSuccess(position) {
         ]
     ];
 
-// display multiple markers on a map
+// show multiple markers on a map
     var infoWindow = new google.maps.InfoWindow(),
         marker, i;
     
-// loop through our array of markers & place each one on the map
+// loop through the array of markers & place each one on the map
     for (i = 0; i < markers.length; i++) {
         var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
         bounds.extend(position);
@@ -160,7 +160,7 @@ function geoSuccess(position) {
             title: markers[i][0]
         });
 
-// allow each marker to have an info window
+// show InfoWindow for each marker
         google.maps.event.addListener(marker, 'click', (function(marker, i) {
             return function () {
                 infoWindow.setContent(infoWindowContent[i][0]);

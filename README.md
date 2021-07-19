@@ -237,8 +237,8 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 
 To validate every page of the project, that there were no syntax errors, these two Validators were used, W3C Validator and W3C CSS Validator. Files of .pdf format is available under each Validator link:
 
-* [W3C Validator](assets/project_files/validators/w3c.pdf "W3C Validator)
-* [W3C CSS Validator](assets/project_files/validators/W3C_css.pdf "W3C CSS Validator)
+* ![W3C Validator](assets/project_files/validators/w3c.pdf "W3C Validator")
+* ![W3C CSS Validator](assets/project_files/validators/W3C_css.pdf "W3C CSS Validator")
 
 ## Bugs and Issues
 

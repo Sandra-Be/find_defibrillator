@@ -1,6 +1,6 @@
 # Find Defibrillator
 
-![Find Defibrillator](assets/project_files/website/responsive.jpg "Find Defibrillator")
+![Find Defibrillator](assets/project_files/website/responsive_d.jpg "Find Defibrillator")
 
 * [Click here](https://sandra-be.github.io/find_defibrillator/) and view the live project.
 
@@ -200,6 +200,8 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 
 # Completed Live Site
 
+![Find Defibrillator](assets/project_files/website/responsive_d.jpg "Find Defibrillator")
+
 * [Click here](https://sandra-be.github.io/find_defibrillator/) and view the live project.
 
 
@@ -227,6 +229,9 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 * Tested on Chrome, Firefox and Microsoft Edge desktop version browsers.
 * Chrome DevTools was used to test variety of devices such as Desktop, Laptop, iPhone7, iPhone 8, Galaxy S5 and iPad for responsiveness.
 * Testing was done to ensure that layout and all Links were working correctly.
+* Lighthouse report on Developer tools:
+
+![Lighthouse](assets/project_files/website/lighthouse_report.jpg "Lighthouse")
 
 ## W3C Validation
 
@@ -236,10 +241,6 @@ To validate every page of the project, that there were no syntax errors, these t
 * [W3C CSS Validator](assets/project_files/validators/W3C_css.pdf "W3C CSS Validator)
 
 ## Bugs and Issues
-
-Issue with Geocoder failure when requesting responsive design from [Am I responsive!](http://ami.responsivedesign.is/) website:
-
-![Issue](assets/project_files/validators/issue.jpg "Issue")
 
 **W3C Validator**
 

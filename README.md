@@ -37,11 +37,14 @@
    * [Bugs and Issues](#Bugs-and-Issues)
    * [User stories testing](#User-stories-testing)
    * [Functional testing](#Function-testing)
-5. [Deployment](#Deployment)
+5. [Google Maps Platform](#Google-Maps-Platform)
+   * [Creating API keys](#Creating-API-keys)
+   * [Adding the API key to your request](#Adding-the-API-key-to-your-request)
+6. [Deployment](#Deployment)
    * [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
    * [Forking the Repository](#Forking-the-Repository)
    * [Creating a Clone](#Creating-a-Clone)
-6. [Credits](#Credits)
+7. [Credits](#Credits)
    * [Images and text](#Images-and-text)
    * [Code](#Code)
    * [Helpfull sites](#Helpfull-sites)
@@ -322,6 +325,27 @@ Throughout the website every link, field and icon was tested and all results are
 | Footer | *GitHub* icon | Click on icon navigates to GitHup repository | Navigates to GitHub repository | Pass |
 | Footer | *Cart* icon | Click on icon navigates to [website](https://www.medguard.ie/defibrillators.html) | Navigates to [website](https://www.medguard.ie/defibrillators.html) | Pass |
 
+# Google Maps Platform
+
+The API key is a unique identifier that authenticates requests associated with your project for usage and billing purposes. You must have at least one API key associated with your project.
+
+## Creating API keys
+
+To create an API key:
+1. Go to the **Google Maps Platform > Credentials** page.
+2. On the **Credentials** page, click **Create credentials > API key**.
+   The **API key created** dialog displays your newly created API key.
+3. Click **Close**.
+   The new API key is listed on the **Credentials** page under **API keys**.
+
+## Adding the API key to your request
+
+You must include an API key with every Maps JavaScript API request. In the following example, replace **YOUR_API_KEY** with your API key.
+
+![API key](assets/project_files/website/api.jpg "API key")
+
+HTTPS is required for requests that use an API key.
+
 # Deployment
 
 ## Deploying on GitHub Pages
@@ -370,13 +394,15 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ## Images and text
 
-* The text for website was created by Sandra Berzkalna and obtained from google.com.
-* All photos used on this website were obtained from google.com.
+* The text for website was created by Sandra Berzkalna and obtained from [google.com](https://www.google.com/search?q=google&oq=goo&aqs=chrome.0.69i59l3j69i57j0i67i433j0i67i131i433j0i67i433j0i67i131i433j0i67i433l2.3443j0j15&sourceid=chrome&ie=UTF-8).
+* All photos used on this website were obtained from [google.com](https://www.google.com/search?q=google&oq=goo&aqs=chrome.0.69i59l3j69i57j0i67i433j0i67i131i433j0i67i433j0i67i131i433j0i67i433l2.3443j0j15&sourceid=chrome&ie=UTF-8).
 
 ## Code
 
 * Responsive Grid CSS layout using grid template areas for Home Page was originally taken from [Traversy Media channel on YouTube](https://www.youtube.com/watch?v=moBhzSC455o) and then modified.
-* GoogleAPI current location code idea taken and modified from [github.com](https://github.com/shanegibney/googleAPIcurrentLocation/blob/master/index.html).
+* GoogleAPI Travel modes in directions code idea taken and modified from [Developers.google.com](https://developers.google.com/maps/documentation/javascript/examples/directions-travel-modes?hl=en#maps_directions_travel_modes-typescript).
+* GoogleAPI current location code idea taken and modified for this project from [stackoverflow.com](https://stackoverflow.com/) platform.
+* [SweetAlert](https://sweetalert.js.org/guides/#installation) pop-up message after email has been sent.
 
 ## Helpfull sites
 

@@ -4,22 +4,21 @@ var myLatLng;
 var latit;
 var longit;
 
+// get users current location
 function geoSuccess(position) {
     var latitude = position.coords.latitude;
     var longitude = position.coords.longitude;
-    var directionsService = new google.maps.DirectionsService;
-    var directionsDisplay = new google.maps.DirectionsRenderer;
     myLatLng = {lat: latitude, lng: longitude};
 
     var mapProp = {
         zoom: 6,
         center: new google.maps.LatLng(latitude, longitude),
     };
+
 // GoogleAPI Travel modes in directions code idea taken and modified from https://developers.google.com/maps/documentation/javascript/examples/directions-travel-modes?hl=en#maps_directions_travel_modes-typescript
     var map = new google.maps.Map(document.getElementById("myMap"), mapProp);
-
-    var directionsService = new google.maps.DirectionsService;
-    var directionsDisplay = new google.maps.DirectionsRenderer;
+    var directionsService = new google.maps.DirectionsService();
+    var directionsDisplay = new google.maps.DirectionsRenderer();
 
 // call renderer to display directions
     directionsDisplay.setMap(map);
@@ -113,7 +112,7 @@ function geoSuccess(position) {
 
                 latit = marker.getPosition().lat();
                 longit = marker.getPosition().lng();
-            }
+            };
         })(marker, i));
 
         marker.addListener('click', function() {
@@ -145,5 +144,6 @@ function getLocation() {
         alert("Geolocation is not supported by this browser");
     }
 }
+
 
 

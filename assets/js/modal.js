@@ -1,14 +1,18 @@
 // get model element
 var modal = document.getElementById('simpleModal');
+
 //get open modal button
 var modalBtn = document.getElementById('modalBtn');
+
 //get close modal button
 var closeBtn = document.getElementsByClassName('closeBtn')[0];
 
 //listen for open click
 modalBtn.addEventListener('click', openModal);
+
 //listen for close click
 closeBtn.addEventListener('click', closeModal);
+
 //listen for outside click on window
 window.addEventListener('click', outsideClick);
 

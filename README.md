@@ -253,12 +253,23 @@ To validate every page of the project, that there were no syntax errors, these t
 * ![W3C Validator](assets/project_files/validators/w3c.pdf "W3C Validator")
 * ![W3C CSS Validator](assets/project_files/validators/W3C_css.pdf "W3C CSS Validator")
 
-Jshint were used to validate JavaScript files of the project.  Files of .jpeg format is available under each link:
+Jshint were used to validate JavaScript files of the project.  Images of .jpeg format is available under each file:
 
-* ![main.js](assets/project_files/validators/main_jshint.jpeg "main.js")
-* ![maps.js](assets/project_files/validators/map_jshint.jpeg "maps.js")
-* ![modal.js](assets/project_files/validators/modal_jshint.jpeg "modal.js")
-* ![sendEmail.js](assets/project_files/validators/sendEmail_jshint.jpeg "sendEmail.js")
+* main.js
+
+![main.js](assets/project_files/validators/main_jshint.jpeg "main.js")
+
+* maps.js
+
+![maps.js](assets/project_files/validators/map_jshint.jpeg "maps.js")
+
+* modal.js
+
+![modal.js](assets/project_files/validators/modal_jshint.jpeg "modal.js")
+
+* sendEmail.js
+
+![sendEmail.js](assets/project_files/validators/sendEmail_jshint.jpeg "sendEmail.js")
 
 ## Bugs and Issues
 

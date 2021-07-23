@@ -1,4 +1,4 @@
-/* function to send email */
+// function to send email 
 function sendMail(contactForm) {
     emailjs.send("service_d3u4bmq","template_2w9zdfq",{
     from_name: contactForm.name.value,
@@ -6,7 +6,7 @@ function sendMail(contactForm) {
     from_email: contactForm.email.value,
     })
 .then (
-    /* Success pop-up from SweetAlert.js library */
+// Success pop-up from SweetAlert.js library 
     function success(){
         swal({
             title: "Thank You!",
@@ -15,7 +15,8 @@ function sendMail(contactForm) {
             button: "OK",
         });
     },
-    /* error pop-up from SweetAlert.js library */
+    
+// error pop-up from SweetAlert.js library 
     function error(){
         swal({
             title: "Try again!",

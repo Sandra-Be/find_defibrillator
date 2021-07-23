@@ -34,6 +34,7 @@
    * [Features to Implement in future](#Features-to-Implement-in-future)  
 4. [Testing](#Testing)
    * [W3C Validation](#W3C-Validation)
+   * [Jshint Validation](#Jshint-Validation)
    * [Bugs and Issues](#Bugs-and-Issues)
    * [User stories testing](#User-stories-testing)
    * [Functional testing](#Function-testing)
@@ -252,6 +253,8 @@ To validate every page of the project, that there were no syntax errors, these t
 
 * ![W3C Validator](assets/project_files/validators/w3c.pdf "W3C Validator")
 * ![W3C CSS Validator](assets/project_files/validators/W3C_css.pdf "W3C CSS Validator")
+
+## Jshint Validation
 
 Jshint were used to validate JavaScript files of the project.  Images of .jpeg format is available under each file:
 

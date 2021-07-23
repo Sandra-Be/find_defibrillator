@@ -195,8 +195,12 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 * Wireframes were created on [Balsamiq](https://balsamiq.com/).
 * [EmailJS services](https://dashboard.emailjs.com/sign-in) used for user to send an email.
 * [Google Maps API](https://developers.google.com/maps/gmp-get-started#quickstart) used for interactive map with icons and directions.
+* [icons8.com](https://icons8.com/icon/14741/aed) website for icons.
 * [SweetAlert](https://sweetalert.js.org/guides/#installation) for pop-up message after email has been sent.
 * [Am I Responsive!](http://ami.responsivedesign.is/) website to review projects responsiveness.
+* [jshint.com](http://jshint.com) used for JavaScript code validation.
+* [W3C Markup Validation Service](https://validator.w3.org/) used for HTML code validation.
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) used for CSS code validation.
 
 # Completed Live Site
 
@@ -239,6 +243,13 @@ To validate every page of the project, that there were no syntax errors, these t
 
 * ![W3C Validator](assets/project_files/validators/w3c.pdf "W3C Validator")
 * ![W3C CSS Validator](assets/project_files/validators/W3C_css.pdf "W3C CSS Validator")
+
+Jshint were used to validate JavaScript files of the project.  Files of .jpeg format is available under each link:
+
+* ![main.js](assets/project_files/validators/main_jshint.jpeg "main.js")
+* ![maps.js](assets/project_files/validators/map_jshint.jpeg "maps.js")
+* ![modal.js](assets/project_files/validators/modal_jshint.jpeg "modal.js")
+* ![sendEmail.js](assets/project_files/validators/sendEmail_jshint.jpeg "sendEmail.js")
 
 ## Bugs and Issues
 
@@ -397,6 +408,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 * The text for website was created by Sandra Berzkalna and obtained from [google.com](https://www.google.com/search?q=google&oq=goo&aqs=chrome.0.69i59l3j69i57j0i67i433j0i67i131i433j0i67i433j0i67i131i433j0i67i433l2.3443j0j15&sourceid=chrome&ie=UTF-8).
 * All photos used on this website were obtained from [google.com](https://www.google.com/search?q=google&oq=goo&aqs=chrome.0.69i59l3j69i57j0i67i433j0i67i131i433j0i67i433j0i67i131i433j0i67i433l2.3443j0j15&sourceid=chrome&ie=UTF-8).
+* Information on defibrillators locations taken partly from [google maps](https://www.google.com/maps/search/defibrillators/@53.3479235,-8.2178418,7z/data=!3m1!4b1) and self research.
 
 ## Code
 

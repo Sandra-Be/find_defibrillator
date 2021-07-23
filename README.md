@@ -211,15 +211,24 @@ This project uses [HTML5](https://en.wikipedia.org/wiki/HTML5) Hypertext Markup 
 
 ## Existing features 
 
-1. **Navigation** 
+1. **Navigation**
+
 Navigation bar is fixed on top for website and it is responsive using Bootstrap template.
+
 2. **Top Container** 
+
 Bootstrap Carousel images for Top Container/About section grabs users attention. Two separate boxes beside images allows user to search for more information about product and also discover more opportunities for trainings courses. Training courses are displayed on modal pop-up activated by Javascript code.
+
 3. **Map section**
+
 Map displays defibrillator location in island of Ireland and users current location. Clicking on marker reveals direction from users current location to clicked marker. Each marker has info window with eircode, address of location and link to google Maps for location on marker.
+
 4. **Contact Locality Form**
+
 Contact form requires users name, email and message about defibrillators location. Forms each fiels has to be filled otherwise form wont allow submit message. After forms fields are filled in, message has been sent to email using EmailJS service and thank you pop-up message shows up.
+
 3. **Footer** 
+
 Links to a social media and purchase of the product
 
 ## Features to Implement in future
